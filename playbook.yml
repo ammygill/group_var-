@@ -1,10 +1,10 @@
 
- name: testing of group vairables 
- hosts: all 
- var_files:
- - group_var/variable.yml
+- name: testing of group vairables 
+  hosts: all 
+  var_files:
+  - group_var/variable.yml
  
- tasks:
- - name: testing with debug
-   debug: 
-    msg: testing for web {{ web }} for the app {{ app }}
+  tasks:
+  - name: testing with debug
+    debug: 
+     msg: testing for web {{ web }} for the app {{ app }}
