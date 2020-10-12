@@ -1,8 +1,8 @@
----
+
  name: testing of group vairables 
  hosts: all 
  var_files:
-  - group_var/variable.yml
+ - group_var/variable.yml
  
  tasks:
  - name: testing with debug
