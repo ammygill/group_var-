@@ -1,5 +1,4 @@
-
-- name: testing of group vairables 
+- name: testing group vaiables
   hosts: all 
   var_files:
   - group_var/variable.yml
